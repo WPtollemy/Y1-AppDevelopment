@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+
+    <color name="bluePrimary">#3F51B5</color>
+    <color name="bluePrimaryDark">#303F9F</color>
+    <color name="blueAccent">#FF4081</color>
+
+    <color name="goldPrimary">#DBBA18</color>
+    <color name="goldPrimaryDark">#D9A816</color>
+    <color name="goldAccent">#AAF200</color>
+
+    <color name="blackPrimary">#666666</color>
+    <color name="blackPrimaryDark">#000000</color>
+    <color name="blackAccent">#CCCCCC</color>
+
+    <color name="greenPrimary">#00904B</color>
+    <color name="greenPrimaryDark">#1F7039</color>
+    <color name="greenAccent">#018C93</color>
+
+    <color name="redPrimary">#FF0000</color>
+    <color name="redPrimaryDark">#CC0000</color>
+    <color name="redAccent">#FF9900</color>
+</resources>

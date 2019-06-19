@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="BlueRing" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/bluePrimary</item>
+        <item name="colorPrimaryDark">@color/bluePrimaryDark</item>
+        <item name="colorAccent">@color/blueAccent</item>
+    </style>
+
+    <style name="GoldRing" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/goldPrimary</item>
+        <item name="colorPrimaryDark">@color/goldPrimaryDark</item>
+        <item name="colorAccent">@color/goldAccent</item>
+    </style>
+
+    <style name="BlackRing" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/blackPrimary</item>
+        <item name="colorPrimaryDark">@color/blackPrimaryDark</item>
+        <item name="colorAccent">@color/blackAccent</item>
+    </style>
+
+    <style name="GreenRing" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/greenPrimary</item>
+        <item name="colorPrimaryDark">@color/greenPrimaryDark</item>
+        <item name="colorAccent">@color/greenAccent</item>
+    </style>
+
+    <style name="RedRing" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/redPrimary</item>
+        <item name="colorPrimaryDark">@color/redPrimaryDark</item>
+        <item name="colorAccent">@color/redAccent</item>
+    </style>
+
+</resources>

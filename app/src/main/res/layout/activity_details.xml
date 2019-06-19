@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="ptollemy.u1558457.will.rioolympicsevent.DetailsActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/vertical_background_black"
+        android:adjustViewBounds="true"
+        android:alpha="0.4"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="@dimen/details_activity_initialgap"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/details_textblock_one"
+                android:textSize="@dimen/splash_text_size"
+                android:textColor="@android:color/black"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="@dimen/details_activity_gaps"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/details_textblock_two"
+                android:textSize="@dimen/splash_text_size"
+                android:textColor="@android:color/black"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/details_textblock_three"
+                android:textSize="@dimen/splash_text_size"
+                android:textColor="@android:color/black"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="@dimen/details_activity_gaps"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/details_final_textblock"
+                android:textSize="@dimen/splash_text_size"
+                android:textColor="@android:color/black"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/details_link"
+                android:textSize="@dimen/splash_text_size"
+                android:gravity="center_horizontal"
+                android:autoLink="web"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

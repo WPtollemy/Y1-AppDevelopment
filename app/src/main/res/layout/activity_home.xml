@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ptollemy.u1558457.will.rioolympicsevent.HomeActivity"
+    android:background="@color/white">
+    <!-- android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/details_button"
+        android:text="@string/detailsBtn_text"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/directions_button"
+        android:text="@string/directionsBtn_text"
+        android:layout_below="@id/details_button"
+        android:layout_alignLeft="@id/details_button"
+        android:layout_alignRight="@id/details_button"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bookings_button"
+        android:text="@string/bookingsBtn_text"
+        android:layout_below="@id/directions_button"
+        android:layout_alignLeft="@id/details_button"
+        android:layout_alignRight="@id/details_button"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/feedback_button"
+        android:text="@string/feedbackBtn_text"
+        android:layout_below="@id/bookings_button"
+        android:layout_alignLeft="@id/details_button"
+        android:layout_alignRight="@id/details_button"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/rio_de_janeiro_vertical_background"
+        android:adjustViewBounds="true"
+        android:alpha="0.4"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ptollemy.u1558457.will.rioolympicsevent.BookingActivity"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/vertical_background_red"
+        android:adjustViewBounds="true"
+        android:alpha="0.4"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/answer_group"
+        android:orientation="vertical"
+        android:layout_centerVertical="true">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/answer_one"
+            android:text="@string/bookings_africa"
+            android:textColor="@android:color/black"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/answer_two"
+            android:text="@string/bookings_asia"
+            android:textColor="@android:color/black"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/answer_three"
+            android:text="@string/bookings_america_central"
+            android:textColor="@android:color/black"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/answer_four"
+            android:text="@string/bookings_europe"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/answer_five"
+            android:text="@string/bookings_america_north"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/answer_six"
+            android:text="@string/bookings_oceana"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/answer_seven"
+            android:text="@string/bookings_america_south"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bookings_link_button"
+        android:text="@string/bookings_linkBtn_text"
+        android:layout_below="@id/answer_group"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bookings_link_button"
+        android:text="@string/bookings_backup_link_text"
+        android:autoLink="web"
+        />
+</RelativeLayout>

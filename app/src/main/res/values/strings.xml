@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Rio 2016 Olympics</string>
+    <string name="details_title">Details</string>
+    <string name="directions_title">Where to go!</string>
+    <string name="bookings_title">How to book tickets!</string>
+    <string name="feedback_title">Send your feedback here</string>
+    <string name="detailsBtn_text">Details about Rio Olympics!</string>
+    <string name="directionsBtn_text">Where to go!</string>
+    <string name="bookingsBtn_text">How to book a ticket</string>
+    <string name="feedbackBtn_text">Give me feedback!</string>
+
+    <string name="details_textblock_one">The Rio 2016 Olympics is held in Rio De Janeiro and it is the first held in South America.</string>
+    <string name="details_textblock_two">The Olympics is held every four years to decide the best of the best in sports.</string>
+    <string name="details_textblock_three">This year is the 28th Modern Summer Olympics and has 2 added sports. Golf and Rugby.</string>
+    <string name="details_final_textblock">You can find more information here: </string>
+    <string name="details_link">http://www.rio2016.com/en/olympic-games</string>
+
+    <string name="directions_key_info_text">Before you head over to Rio you need to make sure you have a ticket. It is also a long distance away so you might need a plane ticket,
+        press the button below to find where it is in relation to you</string>
+    <string name="directions_gotoBtn_text">Where I need to go</string>
+    <string name="title_activity_your_place">Map</string>
+
+    <string name="bookings_asia">Asia</string>
+    <string name="bookings_africa">Africa</string>
+    <string name="bookings_america_central">Central America</string>
+    <string name="bookings_europe">Europe</string>
+    <string name="bookings_america_north">North America</string>
+    <string name="bookings_oceana">Oceana</string>
+    <string name="bookings_america_south">South America</string>
+    <string name="bookings_linkBtn_text">Go to book tickets</string>
+    <string name="bookings_backup_link_text">If it doesn\'t work try this: http://www.rio2016.com/sites/default/files/users/rio2016_files/atrs_en.pdf</string>
+
+    <string name="feedback_send_text">Send feedback</string>
+</resources>
